@@ -48,7 +48,8 @@ export default function UsersPostScreen({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: '#1f1e1e',
   },
 
   list: {
@@ -66,11 +67,12 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    textAlign: 'justify'
+    textAlign: 'justify',
+    color: 'white'
   },
 
   empty: {
     textAlign: 'center',
-
+    color: 'white'
   }
 })

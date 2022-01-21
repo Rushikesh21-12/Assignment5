@@ -51,7 +51,8 @@ export default function PostDetailsScreen({navigation}) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center'
+        justifyContent: 'center',
+        backgroundColor: '#1f1e1e',
     },
     
     list: {
@@ -69,6 +70,7 @@ const styles = StyleSheet.create({
 
     empty: {
         textAlign: 'center',
-        marginBottom: 20
+        marginBottom: 20,
+        color: 'white'
     }
 })
